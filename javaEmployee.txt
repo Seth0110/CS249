@@ -1,0 +1,22 @@
+Seth Sevier
+CS 249
+Midterm
+Java Employee
+
+1.  Personally I dislike the concept of getters and setters however I understand this is an OOP class!
+
+For the following code I have two issues:
+1.  The mis-spaced {} is quite misleading when skimming the code.
+2.  This setter should follow suit with the others and contain validation code to make sure that
+    it does not recieve any garbage data that could break the program.
+
+Code in question:
+"
+public void setHireDate(Date origHireDate )
+    {
+                hireDate = origHireDate;
+        }
+"
+
+As-is the compiler will throw a fit about not importing the Date class from java.util.Date
+I also think that these two classes should be organized into a package.

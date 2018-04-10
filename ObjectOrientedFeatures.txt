@@ -1,0 +1,16 @@
+Seth Sevier
+CS 249
+Final Exam
+2) Notification System - Object-Oriented Features
+
+Java is well suited to solve this problem because of its object oriented features.
+This problem divides into discrete objects that interact quite well, so OOP is a reasonable way to go about this.
+
+By far the most important aspect of java's OOP system for this task to me was inheritance.
+I was able to make several different object types, and make them all inherit the functions needed for my notification object to work.
+If a future developer wanted to take my code and add a new object type to check on a regular basis,
+all they would need to do is make their class extend my Trackable abstract class, and then define what they want their DoAlarm() to do.
+
+Solving this task in this manner would be nigh impossible in a language like Haskell or Erlang.
+It is of course possible to schedule functions to happen in different intervals in those languages,
+but the ability to make objects that can be tracked just isnt there.

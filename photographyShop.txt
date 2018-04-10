@@ -1,0 +1,10 @@
+Seth Sevier
+CS 249
+Midterm - Photography Shop
+
+1.  Since there are multiple inventory items that have differing specs but several similar features, it makes sense to have an abstract item class containing what they have in common and have extending classes that contain what they differ in.  It also would be handy to have a separate class to maintain the inventory system.
+2.  To the best of my knowledge I tried to add specifications to the items that I think would be useful.  Instead of shoving every object into a single array and calling it done for inventory, I thought it would be more helpful to have each item in its own separate array, and give some functions that can operate on individual arrays like getting the number of lenses in stock, and also some functions to operate on the arrays as a group.
+
+By the way, where were those two pictures taken?
+Do you winter hike alone?  What do you bring?
+I'm an avid hiker myself but am not confident enough to go winter hiking like that, props!
